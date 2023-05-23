@@ -32,7 +32,7 @@ export default function ResultsScreen({ navigation, route }) {
             setTimeout(() => {
                 setIsLoading(false);
             }, 1000); // add a delay of 1 second before the next request
-        });
+        })
     }, [currentPage]);
 
    
@@ -62,10 +62,6 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#aaa',
         marginTop: StatusBar.currentHeight, // add padding for status bar
-    },
-    header: {
-        fontSize: 20,
-        marginTop: 10, 
     },
     headerStyle: {
         fontSize: 40,

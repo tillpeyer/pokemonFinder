@@ -38,16 +38,12 @@ export default function DetailScreen({ route }) {
             <StatusBar style="auto" />
         </View>
     );
-};
+}
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#aaa',
         marginTop: StatusBar.currentHeight, // add padding for status bar
-    },
-    header: {
-        fontSize: 20,
-        marginTop: 10, 
     },
     headerStyle: {
         fontSize: 40,
